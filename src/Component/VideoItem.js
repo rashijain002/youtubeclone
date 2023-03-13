@@ -8,6 +8,7 @@ const VideoItem = ({video,onVideoSelect})=>{
         <div className='header'>{video.snippet.title}</div>
         </div>
         </div>
+       
     );
 }
 export default VideoItem;

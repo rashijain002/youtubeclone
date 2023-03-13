@@ -4,7 +4,6 @@ import utube from '../apis/utube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 import './VideoItem.css';
-
 class App extends React.Component{
     state ={videos:[], selectedVideo:null,isLoading:false,error:""};
     onTermSubmit = async (term)=>{
